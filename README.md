@@ -1,3 +1,11 @@
-# Advanced HTML Studies
+# **Advanced HTML Studies**
 
-* Forms
+# Forms
+   * Form
+   * Fieldset Legend
+   * Label
+   * Button
+   * Datalist
+
+### Data entry tags
+   * Input
