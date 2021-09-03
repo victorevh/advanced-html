@@ -6,8 +6,48 @@
     - Elevado número de combinações
 
     Atributos
-    - typr
+    - type
     - name
     - id
     
 -->
+
+<h1>Example</h1>
+
+<input type="text"> type texto <br>
+<input type="date" name="" id=""> <br>
+<input type="file"> <br>
+<input type="password" placeholder="Digite sua senha" name="" id=""> type password <br>
+
+<!-- <input> Atributos comuns
+
+    - autocomplete : busca no navegador algum tipo de dado usado com frequencia
+    - autofocus: 1 por pagina inteira, pois foca algo
+    - disabled: desativa o input
+    - readonly: desativa o input com um aspecto diferente (quase todos)
+    - value 
+    - form: serve pra linkar um input a outro form (quase todos)
+    - name: para enviar os dados do input para o backend 
+    - required: quando o campo for necessario para o cadastro (quase todos)
+    - placeholder (password, search, tel, text, url)
+-->
+
+<h3>Autocomplete</h3>
+
+<input type="email" autocomplete="email"> 
+
+<h3>Linkar input ao form</h3>
+
+<form id="meu-form"></form>
+<input name="email" type="email" form="meu-form">
+
+<h3>Placeholder</h3>
+
+<input type="email" placeholder="Digite seu email" name="" id="">
+
+<h3>Label</h3>
+<!-- Importante sempre utilizar o label, para os leitores de telas funcionarem corretamente -->
+
+<label for="email">E-mail</label>
+<input type="email" name="" id="email" placeholder="Digite seu emaail">
+<button id="email">enviar</button>
