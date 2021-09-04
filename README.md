@@ -8,4 +8,6 @@
    * Datalist
 
 ### Data entry tags
-   * Input
+   * Input atributes
+   * Email atributes
+   * Password atributes

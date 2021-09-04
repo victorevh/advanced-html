@@ -1,0 +1,79 @@
+<!--
+    <input type="email" />
+
+    - Espera que o usuário digite um email
+    - Irá validar se o valor digitado é um email
+
+    # Atributos
+
+    - placeholder
+    - readonly / disabled
+    - value
+    
+    - required
+
+    - multiple
+       * o campo irá receber 1 ou mais emails, separado por vírgulas
+
+    - minlenght / maxlenght
+       * o mínimo e/ou máximo valor que o campo irá conter
+
+    - size
+       * Valor numérico indicando quantos caracteres esse
+    
+    - pattern
+       * Uso de expressão regular para validar o campo
+       * exemplo: o usuário só poderá colocar email do domínio hotmail.com.br
+          * pattern=".+@hotmail\.com\.br"
+
+    - list
+       * o id de uma tag <datalist> que está no mesmo documento
+       * <datalist> irá conter uma lista de valores pré definidos a fim de sugerir ao usuário. quais valores estão disponíveis
+           * Os valores do <datalist> que não forem compatíveis com o campo, não serão apresentados como sugestão.
+               
+-->
+
+
+<h1>E-mail</h1>
+
+<h3>placeholder, required e minlenght/maxlenght</h3>
+<form action="">
+    <input type="email" name="" id=""
+    placeholder="Insira seu email"
+    required
+    minlength="8"
+    maxlength="20"
+    >
+    <button type="submit">Enviar</button>
+</form>
+
+<h3>multiple</h3>
+<form action="">
+    <input type="email" name="" id=""
+    multiple
+    value="ex@b.com, ex2@a.com"
+    >
+    <button type="submit">Enviar</button>
+</form>
+
+<h3>pattern</h3>
+<form action="">
+    <input type="email"
+    pattern=".+@hotmail\.com\.br"
+    title="Somente emails hotmail.com.br serão aceitos"
+    >
+    <button type="submit">Enviar</button>
+</form>
+
+<h3>list</h3>
+<form action="">
+    <datalist id="emailslist">
+        <option>victor@hotmail.com</option>
+    </datalist>
+    <input type="email"
+    list="emailslist"
+    pattern=".+@hotmail\.com"
+    title="Somente emails hotmail.com.br serão aceitos"
+    >
+    <button type="submit">Enviar</button>
+</form>
