@@ -1,6 +1,8 @@
 # **Advanced HTML Studies**
 
 # Forms
+
+### Structure
    * Form
    * Fieldset Legend
    * Label
