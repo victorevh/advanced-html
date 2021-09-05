@@ -15,3 +15,5 @@
    * Password atributes
    * Input URL
    * Input Files
+   * Input color
+   * Input checkbox
