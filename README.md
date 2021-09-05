@@ -13,3 +13,5 @@
    * Input atributes
    * Email atributes
    * Password atributes
+   * Input URL
+   * Input Files
