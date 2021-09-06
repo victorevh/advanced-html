@@ -17,3 +17,6 @@
    * Input Files
    * Input color
    * Input checkbox
+   * Input hiden
+   * Input radio
+   * Textarea
