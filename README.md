@@ -21,3 +21,7 @@
    * Input radio
    * Textarea
    * Select + Optiongroup
+   * Search
+   * Number
+   * Range
+   * Data e Hora / Outros
