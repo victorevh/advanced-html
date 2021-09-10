@@ -47,4 +47,4 @@ Alguns elementos, você irá usar em todos os documentos que você criar, e algu
 
 Em muitos casos, a marcação do conteúdo é de gosto pessoal e será diferente de autor e para autor.
 
-**Sempre buscaremos regras e padrões para aprimorar a estrutura do documento**
+**Sempre buscaremos regras e padrões para aprimorar a estrutura do documento HTML5**
