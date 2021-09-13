@@ -3,6 +3,10 @@
 # Semantic Web
    * Semantic HTML 5
    * Accessibility
+### Common Sections
+   * header
+   * nav
+   * main
 
 # Forms
 ### Structure
