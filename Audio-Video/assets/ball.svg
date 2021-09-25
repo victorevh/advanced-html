@@ -1,0 +1,9 @@
+<svg 
+    version="1.1"
+    baseProfile="full"
+    width="120" 
+    height="120"
+    xmlns="http://www.w3.org/2000/svg"
+    >
+    <circle cx="50" cy="50" r="40" stroke="blue" stroke-width="4" fill="grey" />
+</svg>
